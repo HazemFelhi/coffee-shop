@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM docker.io/openjdk:8-jdk-alpine
 WORKDIR /app
 # Copy the application source code to the container
 COPY /target/coffee-shop.war ./coffee-shop.war
